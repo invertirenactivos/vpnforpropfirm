@@ -46,7 +46,7 @@ docker-compose --version
 # Descargar y configurar WireGuard Easy Docker
 echo "Clonando el repositorio WireGuard Easy Docker..."
 git clone https://github.com/invertirenactivos/wireguardweb.git
-cd wg-easy
+cd wireguardweb
 
 # Crear el archivo .env con la configuración personalizada (utilizando una IP en lugar de raspberrypi.local)
 echo "Configurando archivo .env para WireGuard Easy Docker..."
